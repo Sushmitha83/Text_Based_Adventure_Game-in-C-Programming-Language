@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int choice;
+
+    printf("Welcome to the Text Adventure Game!\n");
+    printf("1. Go left\n");
+    printf("2. Go right\n");
+    printf("3. Quit\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+
+    switch (choice) {
+        case 1:
+            printf("You went left and found a treasure!\n");
+            break;
+        case 2:
+            printf("You went right and encountered a monster!\n");
+            break;
+        case 3:
+            printf("You quit the game.\n");
+            break;
+        default:
+            printf("Invalid choice!\n");
+    }
+
+    return 0;
+}
