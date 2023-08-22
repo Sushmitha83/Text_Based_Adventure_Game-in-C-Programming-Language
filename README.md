@@ -11,5 +11,5 @@ Depending on the choice made,
 the game responds with different outcomes.
 
 
-**Outcome and Impact:**
+# Outcome and Impact:
 The completed text-based adventure game provided players with an immersive and entertaining experience while demonstrating my proficiency in C programming, algorithm design, and software architecture. This project not only showcased my technical skills but also highlighted my ability to create complex and engaging user interfaces using minimalistic command-line interactions.
